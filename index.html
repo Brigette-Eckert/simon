@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simon</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="victory"> </div>
+	<div id="game">
+		<div id="green" class="game-btn"></div>
+		<div id="red" class="game-btn"></div>
+		<div id="yellow" class="game-btn"></div>
+		<div id="blue" class="game-btn"></div>
+		<div id="controls"> 
+			<p id="game-title">SIMON</p> 
+			 <div id="count-display"><span class="count"></span></div>
+			 <div id="start" class="button-container"> 
+			 	<div class="button" id="start-btn"> 
+			 	</div> 
+			 start
+			 </div>
+			 <div id="reset" class="button-container"> 
+			 	<div class="button" id="reset-btn"> 
+			 	</div> 
+			 reset 
+			 </div>
+			 <div id="strict">
+				<label class="switch">
+  				<input type="checkbox" class="slider-check">
+  				<div class="slider round"></div>
+				</label>
+			  <span class="title">strict</span></div> 
+		</div>
+	</div>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script src="app/confetti.js"></script>
+ <script src="app/main.js"></script>
+ 
+</body>
+</html>
+
+<!-- Thanks to John Stracke for the victory sound aka'Winning Triumphal Fanfare Sound'
+found on Soundcloud -->
