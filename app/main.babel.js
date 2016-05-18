@@ -1,11 +1,11 @@
 // Configuration
-let count = 20;
+let count = 0;
 let simonMoves = []; 
 let playerMoves = [];
 let strict = false;
 let currentTurn;
 let playBack;
-const winTurn = 3;
+const winTurn = 20;
 const board = ["green", "red", "yellow", "blue"];
 const audio = [ 
   new Audio("/sounds/simonSound1.mp3"), 
