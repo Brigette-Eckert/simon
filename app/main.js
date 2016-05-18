@@ -9,7 +9,7 @@ var currentTurn = void 0;
 var playBack = void 0;
 var winTurn = 20;
 var board = ["green", "red", "yellow", "blue"];
-var audio = [new Audio("/sounds/simonSound1.mp3"), new Audio("/sounds/simonSound2.mp3"), new Audio("/sounds/simonSound3.mp3"), new Audio("/sounds/simonSound4.mp3"), new Audio("/sounds/buzzer.mp3"), new Audio("/sounds/victory.mp3")];
+var audio = [new Audio("/simon/sounds/simonSound1.mp3"), new Audio("/simon/sounds/simonSound2.mp3"), new Audio("/simon/sounds/simonSound3.mp3"), new Audio("/simon/sounds/simonSound4.mp3"), new Audio("/simon/sounds/buzzer.mp3"), new Audio("/simon/sounds/victory.mp3")];
 
 var flash = function flash(color) {
   audio[board.indexOf(color)].play();
