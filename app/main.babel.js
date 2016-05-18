@@ -8,12 +8,12 @@ let playBack;
 const winTurn = 20;
 const board = ["green", "red", "yellow", "blue"];
 const audio = [ 
-  new Audio("/sounds/simonSound1.mp3"), 
-  new Audio("/sounds/simonSound2.mp3"), 
-  new Audio("/sounds/simonSound3.mp3"), 
-  new Audio("/sounds/simonSound4.mp3"), 
-  new Audio("/sounds/buzzer.mp3"), 
-  new Audio("/sounds/victory.mp3")
+  new Audio("/simon/sounds/simonSound1.mp3"), 
+  new Audio("/simon/sounds/simonSound2.mp3"), 
+  new Audio("/simon/sounds/simonSound3.mp3"), 
+  new Audio("/simon/sounds/simonSound4.mp3"), 
+  new Audio("/simon/sounds/buzzer.mp3"), 
+  new Audio("/simon/sounds/victory.mp3")
 ];
 
 
