@@ -7,7 +7,7 @@ var playerMoves = [];
 var strict = false;
 var currentTurn = void 0;
 var playBack = void 0;
-var winTurn = 20;
+var winTurn = 10;
 var board = ["green", "red", "yellow", "blue"];
 var audio = [new Audio("/simon/sounds/simonSound1.mp3"), new Audio("/simon/sounds/simonSound2.mp3"), new Audio("/simon/sounds/simonSound3.mp3"), new Audio("/simon/sounds/simonSound4.mp3"), new Audio("/simon/sounds/buzzer.mp3"), new Audio("/simon/sounds/victory.mp3")];
 

@@ -5,7 +5,7 @@ let playerMoves = [];
 let strict = false;
 let currentTurn;
 let playBack;
-const winTurn = 20;
+const winTurn = 10;
 const board = ["green", "red", "yellow", "blue"];
 const audio = [ 
   new Audio("/simon/sounds/simonSound1.mp3"), 
